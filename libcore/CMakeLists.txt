@@ -25,6 +25,7 @@ vala_precompile(VALA_C ${PKGNAME}
     PluginManager.vala
     Plugin.vala
     SoundManager.vala
+    Utils.vala
 PACKAGES
     granite
     gtk+-3.0
@@ -50,7 +51,6 @@ set (C_SOURCE_FILES
     eel-gtk-extensions.c
     eel-gdk-pixbuf-extensions.c
     eel-pango-extensions.c
-    eel-gio-extensions.c
     eel-stock-dialogs.c
     eel-string.c
     marlin-file-operations.c
@@ -72,7 +72,6 @@ set (C_HEADER_FILES
     eel-gtk-extensions.h
     eel-gdk-pixbuf-extensions.h
     eel-pango-extensions.h
-    eel-gio-extensions.h
     eel-stock-dialogs.h
     eel-string.h
     gof-file.h
